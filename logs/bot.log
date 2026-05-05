@@ -1,0 +1,590 @@
+2026-05-04T13:22:21.443454+0300 | INFO | Initializing bot...
+2026-05-04T13:22:21.685842+0300 | INFO | Bot started
+2026-05-04T13:22:21.686877+0300 | INFO | Backup scheduler started
+2026-05-04T13:23:07.722613+0300 | DEBUG | Message from 25076348 in peer 2000000002: [club233127658|@ikpro] 🔄 Начать заново
+2026-05-04T13:23:07.724180+0300 | INFO | Processed message from 25076348: [club233127658|@ikpro] 🔄 Начать заново
+2026-05-04T13:23:07.724696+0300 | INFO | === HANDLE: user 25076348, text='[club233127658|@ikpro] 🔄 Начать заново', current state=None ===
+2026-05-04T13:23:07.727877+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-04T13:23:11.904304+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-04T13:23:11.904304+0300 | INFO | Processed message from 25076348: да
+2026-05-04T13:23:11.904840+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-04T13:23:11.904840+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-04T13:23:34.586781+0300 | DEBUG | Message from 25076348 in peer 2000000002: ффф ыавпва
+2026-05-04T13:23:34.586781+0300 | INFO | Processed message from 25076348: ффф ыавпва
+2026-05-04T13:23:34.587312+0300 | INFO | === HANDLE: user 25076348, text='ффф ыавпва', current state=collect_fi ===
+2026-05-04T13:23:34.588357+0300 | INFO | Response to user 25076348: Укажите ваш возраст (целое число лет):
+2026-05-04T13:23:37.967348+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T13:23:37.967876+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T13:23:37.967876+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T13:23:37.967876+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T13:23:37.968411+0300 | DEBUG | cleaned: '12'
+2026-05-04T13:23:37.968411+0300 | DEBUG | age valid: 12
+2026-05-04T13:23:37.969451+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T13:36:16.863923+0300 | INFO | Initializing bot...
+2026-05-04T13:36:17.084594+0300 | INFO | Bot started
+2026-05-04T13:36:17.085630+0300 | INFO | Backup scheduler started
+2026-05-04T13:37:06.672828+0300 | DEBUG | Message from 25076348 in peer 2000000002: Привет
+2026-05-04T13:37:06.673343+0300 | INFO | Processed message from 25076348: Привет
+2026-05-04T13:37:06.673343+0300 | INFO | === HANDLE: user 25076348, text='Привет', current state=None ===
+2026-05-04T13:37:06.673883+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-04T13:37:09.159946+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-04T13:37:09.159946+0300 | INFO | Processed message from 25076348: да
+2026-05-04T13:37:09.160473+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-04T13:37:09.160473+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-04T13:37:15.495991+0300 | DEBUG | Message from 25076348 in peer 2000000002: ааа ррр
+2026-05-04T13:37:15.496513+0300 | INFO | Processed message from 25076348: ааа ррр
+2026-05-04T13:37:15.497027+0300 | INFO | === HANDLE: user 25076348, text='ааа ррр', current state=collect_fi ===
+2026-05-04T13:37:15.497027+0300 | INFO | Response to user 25076348: Укажите ваш возраст (целое число лет):
+2026-05-04T13:37:18.753724+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T13:37:18.753724+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T13:37:18.754244+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T13:37:18.754244+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T13:37:18.754244+0300 | DEBUG | cleaned: '12'
+2026-05-04T13:37:18.754244+0300 | DEBUG | age valid: 12
+2026-05-04T13:37:18.754756+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T13:37:22.075536+0300 | DEBUG | Message from 25076348 in peer 2000000002: 23
+2026-05-04T13:37:22.076047+0300 | INFO | Processed message from 25076348: 23
+2026-05-04T13:37:22.076047+0300 | INFO | === HANDLE: user 25076348, text='23', current state=collect_age ===
+2026-05-04T13:37:22.076047+0300 | DEBUG | validate_age input: ''23''
+2026-05-04T13:37:22.076566+0300 | DEBUG | cleaned: '23'
+2026-05-04T13:37:22.076566+0300 | DEBUG | age valid: 23
+2026-05-04T13:37:22.076566+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T14:09:25.567877+0300 | INFO | Initializing bot...
+2026-05-04T14:09:25.744659+0300 | INFO | Bot started
+2026-05-04T14:09:25.745178+0300 | INFO | Backup scheduler started
+2026-05-04T14:09:34.624213+0300 | DEBUG | Message from 25076348 in peer 2000000002: Привет
+2026-05-04T14:09:34.624213+0300 | INFO | Processed message from 25076348: Привет
+2026-05-04T14:09:34.624213+0300 | INFO | === HANDLE: user 25076348, text='Привет', current state=None ===
+2026-05-04T14:09:34.624740+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-04T14:09:36.950764+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-04T14:09:36.950764+0300 | INFO | Processed message from 25076348: да
+2026-05-04T14:09:36.951300+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-04T14:09:36.951300+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-04T14:09:45.685252+0300 | DEBUG | Message from 25076348 in peer 2000000002: вав авп
+2026-05-04T14:09:45.685252+0300 | INFO | Processed message from 25076348: вав авп
+2026-05-04T14:09:45.685252+0300 | INFO | === HANDLE: user 25076348, text='вав авп', current state=collect_fi ===
+2026-05-04T14:09:45.685773+0300 | INFO | Response to user 25076348: Укажите ваш возраст (целое число лет):
+2026-05-04T14:09:49.196572+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T14:09:49.197077+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T14:09:49.197077+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T14:09:49.197077+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T14:09:49.197077+0300 | DEBUG | cleaned: '12'
+2026-05-04T14:09:49.197077+0300 | DEBUG | age valid: 12
+2026-05-04T14:09:49.197077+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T14:09:53.320692+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12лет
+2026-05-04T14:09:53.320692+0300 | INFO | Processed message from 25076348: 12лет
+2026-05-04T14:09:53.320692+0300 | INFO | === HANDLE: user 25076348, text='12лет', current state=collect_age ===
+2026-05-04T14:09:53.321204+0300 | DEBUG | validate_age input: ''12лет''
+2026-05-04T14:09:53.321204+0300 | DEBUG | cleaned: '12'
+2026-05-04T14:09:53.321204+0300 | DEBUG | age valid: 12
+2026-05-04T14:09:53.321724+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T14:10:19.043522+0300 | DEBUG | Message from 25076348 in peer 2000000002: 13
+2026-05-04T14:10:19.043522+0300 | INFO | Processed message from 25076348: 13
+2026-05-04T14:10:19.043522+0300 | INFO | === HANDLE: user 25076348, text='13', current state=collect_age ===
+2026-05-04T14:10:19.044052+0300 | DEBUG | validate_age input: ''13''
+2026-05-04T14:10:19.044052+0300 | DEBUG | cleaned: '13'
+2026-05-04T14:10:19.044052+0300 | DEBUG | age valid: 13
+2026-05-04T14:10:19.044052+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T14:10:22.029805+0300 | DEBUG | Message from 25076348 in peer 2000000002: 18
+2026-05-04T14:10:22.029805+0300 | INFO | Processed message from 25076348: 18
+2026-05-04T14:10:22.029805+0300 | INFO | === HANDLE: user 25076348, text='18', current state=collect_age ===
+2026-05-04T14:10:22.030324+0300 | DEBUG | validate_age input: ''18''
+2026-05-04T14:10:22.030324+0300 | DEBUG | cleaned: '18'
+2026-05-04T14:10:22.030324+0300 | DEBUG | age valid: 18
+2026-05-04T14:10:22.030324+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T14:52:44.897174+0300 | INFO | Initializing bot...
+2026-05-04T14:52:45.151496+0300 | INFO | Bot started
+2026-05-04T14:52:45.152530+0300 | INFO | Backup scheduler started
+2026-05-04T14:53:41.300176+0300 | DEBUG | Message from 25076348 in peer 2000000002: привет
+2026-05-04T14:53:41.302249+0300 | INFO | Processed message from 25076348: привет
+2026-05-04T14:53:41.302249+0300 | INFO | === HANDLE: user 25076348, text='привет', current state=None ===
+2026-05-04T14:53:41.306431+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-04T14:53:43.736066+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-04T14:53:43.736066+0300 | INFO | Processed message from 25076348: да
+2026-05-04T14:53:43.736066+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-04T14:53:43.736606+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-04T14:53:49.142783+0300 | DEBUG | Message from 25076348 in peer 2000000002: ппп ррр
+2026-05-04T14:53:49.142783+0300 | INFO | Processed message from 25076348: ппп ррр
+2026-05-04T14:53:49.143321+0300 | INFO | === HANDLE: user 25076348, text='ппп ррр', current state=collect_fi ===
+2026-05-04T14:53:49.152638+0300 | INFO | Response to user 25076348: Укажите ваш возраст (целое число лет):
+2026-05-04T14:53:51.561650+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T14:53:51.561650+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T14:53:51.562169+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T14:53:51.562169+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T14:53:51.562169+0300 | DEBUG | cleaned: '12'
+2026-05-04T14:53:51.562710+0300 | DEBUG | age valid: 12
+2026-05-04T14:53:51.563228+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T14:53:57.436097+0300 | DEBUG | Message from 25076348 in peer 2000000002: 13
+2026-05-04T14:53:57.436097+0300 | INFO | Processed message from 25076348: 13
+2026-05-04T14:53:57.436624+0300 | INFO | === HANDLE: user 25076348, text='13', current state=collect_age ===
+2026-05-04T14:53:57.436624+0300 | DEBUG | validate_age input: ''13''
+2026-05-04T14:53:57.436624+0300 | DEBUG | cleaned: '13'
+2026-05-04T14:53:57.436624+0300 | DEBUG | age valid: 13
+2026-05-04T14:53:57.437143+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T14:54:17.932582+0300 | ERROR | Fatal error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Traceback (most recent call last):
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               │    └ <function HTTPConnectionPool._make_request at 0x000001F29A685300>
+               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x000001F29A814050>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               │    └ <function HTTPConnection.getresponse at 0x000001F29A6551C0>
+               └ <HTTPSConnection(host='lp.vk.com', port=443) at 0x1f29a814d10>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+    │        └ <function HTTPResponse.begin at 0x000001F29A55B4C0>
+    └ <http.client.HTTPResponse object at 0x000001F29A4FF4F0>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              │    └ <function HTTPResponse._read_status at 0x000001F29A55B420>
+                              └ <http.client.HTTPResponse object at 0x000001F29A4FF4F0>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+          └ <class 'http.client.RemoteDisconnected'>
+
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x000001F29A6854E0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x000001F29A814050>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              │       └ <function Retry.increment at 0x000001F29A46DEE0>
+              └ Retry(total=0, connect=None, read=False, redirect=None, status=None)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          │            │       │      └ <traceback object at 0x000001F298640380>
+          │            │       └ ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+          │            └ ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+          └ <function reraise at 0x000001F29A46C5E0>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+          │                    └ None
+          └ None
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               │    └ <function HTTPConnectionPool._make_request at 0x000001F29A685300>
+               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x000001F29A814050>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               │    └ <function HTTPConnection.getresponse at 0x000001F29A6551C0>
+               └ <HTTPSConnection(host='lp.vk.com', port=443) at 0x1f29a814d10>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+    │        └ <function HTTPResponse.begin at 0x000001F29A55B4C0>
+    └ <http.client.HTTPResponse object at 0x000001F29A4FF4F0>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              │    └ <function HTTPResponse._read_status at 0x000001F29A55B420>
+                              └ <http.client.HTTPResponse object at 0x000001F29A4FF4F0>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+          └ <class 'http.client.RemoteDisconnected'>
+
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "m:\bot_vk_ikp\vk-sales-bot\main.py", line 28, in <module>
+    main()
+    └ <function main at 0x000001F2FEC99EE0>
+
+> File "m:\bot_vk_ikp\vk-sales-bot\main.py", line 20, in main
+    bot.run()
+    │   └ <function VKBot.run at 0x000001F29A7D77E0>
+    └ <services.vk_bot.VKBot object at 0x000001F29A6BA5D0>
+
+  File "m:\bot_vk_ikp\vk-sales-bot\services\vk_bot.py", line 90, in run
+    for event in self.longpoll.listen():
+        │        │    │        └ <function VkBotLongPoll.listen at 0x000001F29A7D4180>
+        │        │    └ <vk_api.bot_longpoll.VkBotLongPoll object at 0x000001F29A7AF160>
+        │        └ <services.vk_bot.VKBot object at 0x000001F29A6BA5D0>
+        └ <<class 'vk_api.bot_longpoll.VkBotMessageEvent'>({'group_id': 233127658, 'type': 'message_new', 'event_id': 'a8c630d5264c1fc3...
+
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\vk_api\bot_longpoll.py", line 286, in listen
+    for event in self.check():
+        │        │    └ <function VkBotLongPoll.check at 0x000001F29A7D40E0>
+        │        └ <vk_api.bot_longpoll.VkBotLongPoll object at 0x000001F29A7AF160>
+        └ <<class 'vk_api.bot_longpoll.VkBotMessageEvent'>({'group_id': 233127658, 'type': 'message_new', 'event_id': 'a8c630d5264c1fc3...
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\vk_api\bot_longpoll.py", line 255, in check
+    response = self.session.get(
+               │    └ <member 'session' of 'VkBotLongPoll' objects>
+               └ <vk_api.bot_longpoll.VkBotLongPoll object at 0x000001F29A7AF160>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           │    │              │      └ {'params': {'act': 'a_check', 'key': 'eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJxdWV1ZV9pZCI6IjIzMzEyNzY1OCIsInVudGlsIjoxNzc3OD...
+           │    │              └ 'https://lp.vk.com/whp/233127658'
+           │    └ <function Session.request at 0x000001F29A7BF4C0>
+           └ <requests.sessions.Session object at 0x000001F29A7E9E90>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': 35, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': True, 'cert': None}
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x000001F29A7BF9C0>
+           └ <requests.sessions.Session object at 0x000001F29A7E9E90>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': 35, 'proxies': OrderedDict(), 'stream': False, 'verify': True, 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x000001F29A7BED40>
+        └ <requests.adapters.HTTPAdapter object at 0x000001F29A7EA390>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 660, in send
+    raise ConnectionError(err, request=request)
+          │                            └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.ConnectionError'>
+
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-05-04T15:32:36.840163+0300 | INFO | Initializing bot...
+2026-05-04T15:32:37.085881+0300 | INFO | Bot started
+2026-05-04T15:32:37.086882+0300 | INFO | Backup scheduler started
+2026-05-04T15:32:43.889888+0300 | DEBUG | Message from 25076348 in peer 2000000002: привет
+2026-05-04T15:32:43.891134+0300 | INFO | Processed message from 25076348: привет
+2026-05-04T15:32:43.891134+0300 | INFO | === HANDLE: user 25076348, text='привет', current state=None ===
+2026-05-04T15:32:43.894134+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-04T15:32:47.508547+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-04T15:32:47.508547+0300 | INFO | Processed message from 25076348: да
+2026-05-04T15:32:47.508547+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-04T15:32:47.508547+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-04T15:32:55.451299+0300 | DEBUG | Message from 25076348 in peer 2000000002: ааа ппп
+2026-05-04T15:32:55.451299+0300 | INFO | Processed message from 25076348: ааа ппп
+2026-05-04T15:32:55.451299+0300 | INFO | === HANDLE: user 25076348, text='ааа ппп', current state=collect_fi ===
+2026-05-04T15:32:55.453302+0300 | INFO | Response to user 25076348: Укажите ваш возраст (целое число лет):
+2026-05-04T15:32:59.095014+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T15:32:59.095014+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T15:32:59.095014+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T15:32:59.095014+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T15:32:59.096013+0300 | DEBUG | cleaned: '12'
+2026-05-04T15:32:59.096013+0300 | DEBUG | age valid: 12
+2026-05-04T15:32:59.098012+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T15:33:02.913004+0300 | DEBUG | Message from 25076348 in peer 2000000002: 23
+2026-05-04T15:33:02.914007+0300 | INFO | Processed message from 25076348: 23
+2026-05-04T15:33:02.914007+0300 | INFO | === HANDLE: user 25076348, text='23', current state=collect_age ===
+2026-05-04T15:33:02.914007+0300 | DEBUG | validate_age input: ''23''
+2026-05-04T15:33:02.914007+0300 | DEBUG | cleaned: '23'
+2026-05-04T15:33:02.914007+0300 | DEBUG | age valid: 23
+2026-05-04T15:33:02.915005+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T18:09:52.845335+0300 | INFO | Initializing bot...
+2026-05-04T18:09:53.046373+0300 | INFO | Bot started
+2026-05-04T18:09:53.047373+0300 | INFO | Backup scheduler started
+2026-05-04T18:10:10.241270+0300 | DEBUG | Message from 25076348 in peer 2000000002: привет
+2026-05-04T18:10:10.242269+0300 | INFO | Processed message from 25076348: привет
+2026-05-04T18:10:10.242269+0300 | INFO | === HANDLE: user 25076348, text='привет', current state=None ===
+2026-05-04T18:10:10.245270+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-04T18:10:13.272789+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-04T18:10:13.273787+0300 | INFO | Processed message from 25076348: да
+2026-05-04T18:10:13.273787+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-04T18:10:13.273787+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-04T18:10:18.694847+0300 | DEBUG | Message from 25076348 in peer 2000000002: аа рп
+2026-05-04T18:10:18.694847+0300 | INFO | Processed message from 25076348: аа рп
+2026-05-04T18:10:18.694847+0300 | INFO | === HANDLE: user 25076348, text='аа рп', current state=collect_fi ===
+2026-05-04T18:10:18.696350+0300 | INFO | Response to user 25076348: Укажите ваш возраст (целое число лет):
+2026-05-04T18:10:21.671256+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T18:10:21.671256+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T18:10:21.672255+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T18:10:21.672255+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T18:10:21.672255+0300 | DEBUG | cleaned: '12'
+2026-05-04T18:10:21.672255+0300 | DEBUG | age valid: 12
+2026-05-04T18:10:21.672255+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T18:12:55.999161+0300 | INFO | Initializing bot...
+2026-05-04T18:12:56.620865+0300 | INFO | Bot started
+2026-05-04T18:12:56.620865+0300 | INFO | Backup scheduler started
+2026-05-04T18:13:16.401304+0300 | DEBUG | Message from 25076348 in peer 2000000002: 5
+2026-05-04T18:13:16.402310+0300 | INFO | Processed message from 25076348: 5
+2026-05-04T18:13:16.402310+0300 | INFO | === HANDLE: user 25076348, text='5', current state=None ===
+2026-05-04T18:13:16.402310+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-04T18:13:19.498303+0300 | DEBUG | Message from 25076348 in peer 2000000002: всыв
+2026-05-04T18:13:19.498303+0300 | INFO | Processed message from 25076348: всыв
+2026-05-04T18:13:19.498303+0300 | INFO | === HANDLE: user 25076348, text='всыв', current state=ask_consent ===
+2026-05-04T18:13:19.498303+0300 | INFO | Response to user 25076348: Пожалуйста, ответьте 'Да' (согласен) или 'Нет' (не согласен).
+2026-05-04T18:13:22.869492+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-04T18:13:22.869492+0300 | INFO | Processed message from 25076348: да
+2026-05-04T18:13:22.870492+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-04T18:13:22.870492+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-04T18:13:30.113454+0300 | DEBUG | Message from 25076348 in peer 2000000002: пав пав
+2026-05-04T18:13:30.113454+0300 | INFO | Processed message from 25076348: пав пав
+2026-05-04T18:13:30.113454+0300 | INFO | === HANDLE: user 25076348, text='пав пав', current state=collect_fi ===
+2026-05-04T18:13:30.114454+0300 | INFO | Response to user 25076348: Укажите ваш возраст (целое число лет):
+2026-05-04T18:13:32.914351+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T18:13:32.915351+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T18:13:32.915351+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T18:13:32.915351+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T18:13:32.915351+0300 | DEBUG | cleaned: '12'
+2026-05-04T18:13:32.915351+0300 | DEBUG | age valid: 12
+2026-05-04T18:13:32.915351+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T18:13:36.111171+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T18:13:36.111171+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T18:13:36.111171+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T18:13:36.112171+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T18:13:36.112171+0300 | DEBUG | cleaned: '12'
+2026-05-04T18:13:36.112171+0300 | DEBUG | age valid: 12
+2026-05-04T18:13:36.112171+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T18:13:43.488167+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12лет
+2026-05-04T18:13:43.488167+0300 | INFO | Processed message from 25076348: 12лет
+2026-05-04T18:13:43.488167+0300 | INFO | === HANDLE: user 25076348, text='12лет', current state=collect_age ===
+2026-05-04T18:13:43.489166+0300 | DEBUG | validate_age input: ''12лет''
+2026-05-04T18:13:43.489166+0300 | DEBUG | cleaned: '12'
+2026-05-04T18:13:43.489166+0300 | DEBUG | age valid: 12
+2026-05-04T18:13:43.489166+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T18:13:48.007000+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12 лет
+2026-05-04T18:13:48.007000+0300 | INFO | Processed message from 25076348: 12 лет
+2026-05-04T18:13:48.007000+0300 | INFO | === HANDLE: user 25076348, text='12 лет', current state=collect_age ===
+2026-05-04T18:13:48.008153+0300 | DEBUG | validate_age input: ''12 лет''
+2026-05-04T18:13:48.008153+0300 | DEBUG | cleaned: '12'
+2026-05-04T18:13:48.008153+0300 | DEBUG | age valid: 12
+2026-05-04T18:13:48.008153+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T18:13:51.898194+0300 | DEBUG | Message from 25076348 in peer 2000000002: 1
+2026-05-04T18:13:51.898194+0300 | INFO | Processed message from 25076348: 1
+2026-05-04T18:13:51.899194+0300 | INFO | === HANDLE: user 25076348, text='1', current state=collect_age ===
+2026-05-04T18:13:51.899194+0300 | DEBUG | validate_age input: ''1''
+2026-05-04T18:13:51.899194+0300 | DEBUG | cleaned: '1'
+2026-05-04T18:13:51.899194+0300 | DEBUG | age valid: 1
+2026-05-04T18:13:51.899194+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T18:13:55.621492+0300 | DEBUG | Message from 25076348 in peer 2000000002: 120
+2026-05-04T18:13:55.622492+0300 | INFO | Processed message from 25076348: 120
+2026-05-04T18:13:55.622492+0300 | INFO | === HANDLE: user 25076348, text='120', current state=collect_age ===
+2026-05-04T18:13:55.622492+0300 | DEBUG | validate_age input: ''120''
+2026-05-04T18:13:55.622492+0300 | DEBUG | cleaned: '120'
+2026-05-04T18:13:55.622492+0300 | DEBUG | age valid: 120
+2026-05-04T18:13:55.622492+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T18:14:00.545873+0300 | DEBUG | Message from 25076348 in peer 2000000002: 158
+2026-05-04T18:14:00.545873+0300 | INFO | Processed message from 25076348: 158
+2026-05-04T18:14:00.545873+0300 | INFO | === HANDLE: user 25076348, text='158', current state=collect_age ===
+2026-05-04T18:14:00.545873+0300 | DEBUG | validate_age input: ''158''
+2026-05-04T18:14:00.545873+0300 | DEBUG | cleaned: '158'
+2026-05-04T18:14:00.546870+0300 | INFO | Response to user 25076348: Возраст должен быть от 1 до 120 лет.
+Укажите ваш возраст (целое число лет):
+2026-05-04T18:14:29.195477+0300 | DEBUG | Message from 25076348 in peer 2000000002: 11
+2026-05-04T18:14:29.195477+0300 | INFO | Processed message from 25076348: 11
+2026-05-04T18:14:29.196478+0300 | INFO | === HANDLE: user 25076348, text='11', current state=collect_age ===
+2026-05-04T18:14:29.196478+0300 | DEBUG | validate_age input: ''11''
+2026-05-04T18:14:29.196478+0300 | DEBUG | cleaned: '11'
+2026-05-04T18:14:29.196478+0300 | DEBUG | age valid: 11
+2026-05-04T18:14:29.196478+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T21:42:30.942354+0300 | INFO | Initializing bot...
+2026-05-04T21:42:31.199461+0300 | INFO | Bot started
+2026-05-04T21:42:31.200460+0300 | INFO | Backup scheduler started
+2026-05-04T21:43:03.630075+0300 | INFO | Initializing bot...
+2026-05-04T21:43:04.103937+0300 | INFO | Bot started
+2026-05-04T21:43:04.104937+0300 | INFO | Backup scheduler started
+2026-05-04T21:43:32.010181+0300 | DEBUG | Message from 25076348 in peer 2000000002: привет
+2026-05-04T21:43:32.012181+0300 | INFO | Processed message from 25076348: привет
+2026-05-04T21:43:32.012181+0300 | INFO | === HANDLE: user 25076348, text='привет', current state=None ===
+2026-05-04T21:43:32.015181+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-04T21:43:34.178176+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-04T21:43:34.178176+0300 | INFO | Processed message from 25076348: да
+2026-05-04T21:43:34.178176+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-04T21:43:34.178176+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-04T21:43:40.704112+0300 | DEBUG | Message from 25076348 in peer 2000000002: ааа ппп
+2026-05-04T21:43:40.704112+0300 | INFO | Processed message from 25076348: ааа ппп
+2026-05-04T21:43:40.704112+0300 | INFO | === HANDLE: user 25076348, text='ааа ппп', current state=collect_fi ===
+2026-05-04T21:43:40.706111+0300 | INFO | Response to user 25076348: Укажите ваш возраст (целое число лет):
+2026-05-04T21:43:43.405452+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T21:43:43.405452+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T21:43:43.406451+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T21:43:43.406451+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T21:43:43.406451+0300 | DEBUG | cleaned: '12'
+2026-05-04T21:43:43.406451+0300 | DEBUG | age valid: 12
+2026-05-04T21:43:43.407452+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T21:43:53.242075+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-04T21:43:53.243076+0300 | INFO | Processed message from 25076348: 12
+2026-05-04T21:43:53.243076+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-04T21:43:53.243076+0300 | DEBUG | validate_age input: ''12''
+2026-05-04T21:43:53.243076+0300 | DEBUG | cleaned: '12'
+2026-05-04T21:43:53.243076+0300 | DEBUG | age valid: 12
+2026-05-04T21:43:53.243076+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-04T21:44:00.659922+0300 | DEBUG | Message from 25076348 in peer 2000000002: "12"
+2026-05-04T21:44:00.659922+0300 | INFO | Processed message from 25076348: "12"
+2026-05-04T21:44:00.659922+0300 | INFO | === HANDLE: user 25076348, text='"12"', current state=collect_age ===
+2026-05-04T21:44:00.659922+0300 | DEBUG | validate_age input: ''"12"''
+2026-05-04T21:44:00.659922+0300 | DEBUG | cleaned: '12'
+2026-05-04T21:44:00.660921+0300 | DEBUG | age valid: 12
+2026-05-04T21:44:00.660921+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-05T07:00:09.347195+0300 | INFO | Initializing bot...
+2026-05-05T07:00:09.569224+0300 | INFO | Bot started
+2026-05-05T07:00:09.570223+0300 | INFO | Backup scheduler started
+2026-05-05T07:00:20.263695+0300 | INFO | Initializing bot...
+2026-05-05T07:00:20.447752+0300 | INFO | Bot started
+2026-05-05T07:00:20.447752+0300 | INFO | Backup scheduler started
+2026-05-05T07:00:51.798725+0300 | DEBUG | Message from 25076348 in peer 2000000002: привет
+2026-05-05T07:00:51.798725+0300 | INFO | Processed message from 25076348: привет
+2026-05-05T07:00:51.798725+0300 | INFO | === HANDLE: user 25076348, text='привет', current state=None ===
+2026-05-05T07:00:51.799725+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-05T07:00:55.300865+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-05T07:00:55.300865+0300 | INFO | Processed message from 25076348: да
+2026-05-05T07:00:55.301864+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-05T07:00:55.301864+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-05T07:01:00.589119+0300 | DEBUG | Message from 25076348 in peer 2000000002: ааа ппп
+2026-05-05T07:01:00.589119+0300 | INFO | Processed message from 25076348: ааа ппп
+2026-05-05T07:01:00.590119+0300 | INFO | === HANDLE: user 25076348, text='ааа ппп', current state=collect_fi ===
+2026-05-05T07:01:00.590119+0300 | INFO | Response to user 25076348: Укажите ваш возраст (целое число лет):
+2026-05-05T07:01:03.015859+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-05T07:01:03.015859+0300 | INFO | Processed message from 25076348: 12
+2026-05-05T07:01:03.015859+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-05T07:01:03.016362+0300 | DEBUG | validate_age input: ''12''
+2026-05-05T07:01:03.016362+0300 | DEBUG | cleaned: '12'
+2026-05-05T07:01:03.016362+0300 | DEBUG | age valid: 12
+2026-05-05T07:01:03.016362+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-05T07:01:04.461068+0300 | DEBUG | Message from 25076348 in peer 2000000002: 12
+2026-05-05T07:01:04.461068+0300 | INFO | Processed message from 25076348: 12
+2026-05-05T07:01:04.461068+0300 | INFO | === HANDLE: user 25076348, text='12', current state=collect_age ===
+2026-05-05T07:01:04.461068+0300 | DEBUG | validate_age input: ''12''
+2026-05-05T07:01:04.462069+0300 | DEBUG | cleaned: '12'
+2026-05-05T07:01:04.462069+0300 | DEBUG | age valid: 12
+2026-05-05T07:01:04.462069+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-05T07:01:06.186293+0300 | DEBUG | Message from 25076348 in peer 2000000002: 31
+2026-05-05T07:01:06.186798+0300 | INFO | Processed message from 25076348: 31
+2026-05-05T07:01:06.186798+0300 | INFO | === HANDLE: user 25076348, text='31', current state=collect_age ===
+2026-05-05T07:01:06.186798+0300 | DEBUG | validate_age input: ''31''
+2026-05-05T07:01:06.186798+0300 | DEBUG | cleaned: '31'
+2026-05-05T07:01:06.186798+0300 | DEBUG | age valid: 31
+2026-05-05T07:01:06.187799+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-05T07:01:08.344400+0300 | DEBUG | Message from 25076348 in peer 2000000002: 41
+2026-05-05T07:01:08.344400+0300 | INFO | Processed message from 25076348: 41
+2026-05-05T07:01:08.344400+0300 | INFO | === HANDLE: user 25076348, text='41', current state=collect_age ===
+2026-05-05T07:01:08.344400+0300 | DEBUG | validate_age input: ''41''
+2026-05-05T07:01:08.344400+0300 | DEBUG | cleaned: '41'
+2026-05-05T07:01:08.344400+0300 | DEBUG | age valid: 41
+2026-05-05T07:01:08.345902+0300 | INFO | Response to user 25076348: Пожалуйста, введите число (ваш возраст).
+Укажите ваш возраст (целое число лет):
+2026-05-05T08:33:06.946148+0300 | INFO | Initializing bot...
+2026-05-05T08:33:07.210217+0300 | INFO | Bot started
+2026-05-05T08:33:07.211222+0300 | INFO | Backup scheduler started
+2026-05-05T08:33:29.318049+0300 | DEBUG | Message from 25076348 in peer 2000000002: авсыв
+2026-05-05T08:33:29.319049+0300 | INFO | Processed message from 25076348: авсыв
+2026-05-05T08:33:29.319049+0300 | INFO | === HANDLE: user 25076348, text='авсыв', current state=None ===
+2026-05-05T08:33:29.321050+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-05T08:33:34.372307+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-05T08:33:34.372307+0300 | INFO | Processed message from 25076348: да
+2026-05-05T08:33:34.372307+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-05T08:33:34.372307+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-05T08:33:39.200486+0300 | DEBUG | Message from 25076348 in peer 2000000002: аваыв павпва
+2026-05-05T08:33:39.200486+0300 | INFO | Processed message from 25076348: аваыв павпва
+2026-05-05T08:33:39.200486+0300 | INFO | === HANDLE: user 25076348, text='аваыв павпва', current state=collect_fi ===
+2026-05-05T08:33:39.201486+0300 | INFO | Response to user 25076348: 👪 Укажите, пожалуйста, контактные данные родителя или опекуна. Вы можете предоставить их сейчас или 
+2026-05-05T08:34:08.120612+0300 | DEBUG | Message from 25076348 in peer 2000000002: пропустить
+2026-05-05T08:34:08.121613+0300 | INFO | Processed message from 25076348: пропустить
+2026-05-05T08:34:08.121613+0300 | INFO | === HANDLE: user 25076348, text='пропустить', current state=ask_parent_data ===
+2026-05-05T08:34:08.121613+0300 | INFO | Parent data skipped for user 25076348
+2026-05-05T08:34:08.121613+0300 | INFO | Response to user 25076348: ✅ Данные родителя пропущены. Продолжаем оформление.
+Отлично! Теперь укажите ваш номер телефона в фор
+2026-05-05T08:34:34.619625+0300 | DEBUG | Message from 25076348 in peer 2000000002: +7(900)000-00-00
+2026-05-05T08:34:34.619625+0300 | INFO | Processed message from 25076348: +7(900)000-00-00
+2026-05-05T08:34:34.619625+0300 | INFO | === HANDLE: user 25076348, text='+7(900)000-00-00', current state=collect_phone ===
+2026-05-05T08:34:34.619625+0300 | INFO | Response to user 25076348: Укажите удобное время по МСК для звонка (например: 'завтра после 18', 'в среду утром', 'сегодня в 15
+2026-05-05T08:34:52.867495+0300 | DEBUG | Message from 25076348 in peer 2000000002: сегодня в 15:00
+2026-05-05T08:34:52.867495+0300 | INFO | Processed message from 25076348: сегодня в 15:00
+2026-05-05T08:34:52.867495+0300 | INFO | === HANDLE: user 25076348, text='сегодня в 15:00', current state=collect_time ===
+2026-05-05T08:34:54.349050+0300 | INFO | Response to user 25076348: Проверьте данные:
+ФИ: аваыв павпва
+Телефон: +7 (900) 000-00-00
+Время звонка по МСК: 05.05.2026 в 15:
+2026-05-05T08:34:58.958675+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-05T08:34:58.958675+0300 | INFO | Processed message from 25076348: да
+2026-05-05T08:34:58.958675+0300 | INFO | === HANDLE: user 25076348, text='да', current state=collect_time ===
+2026-05-05T08:34:59.533476+0300 | INFO | Response to user 25076348: Не удалось распознать время. Укажите, например: 'завтра после 18', 'в среду утром' или 'любое время'
+2026-05-05T08:35:39.028252+0300 | DEBUG | Message from 25076348 in peer 2000000002: сегодня в 15:00
+2026-05-05T08:35:39.028252+0300 | INFO | Processed message from 25076348: сегодня в 15:00
+2026-05-05T08:35:39.028252+0300 | INFO | === HANDLE: user 25076348, text='сегодня в 15:00', current state=collect_time ===
+2026-05-05T08:35:39.030760+0300 | INFO | Response to user 25076348: Проверьте данные:
+ФИ: аваыв павпва
+Телефон: +7 (900) 000-00-00
+Время звонка по МСК: 05.05.2026 в 15:
+2026-05-05T08:35:46.969686+0300 | DEBUG | Message from 25076348 in peer 2000000002: Да
+2026-05-05T08:35:46.969686+0300 | INFO | Processed message from 25076348: Да
+2026-05-05T08:35:46.970686+0300 | INFO | === HANDLE: user 25076348, text='Да', current state=collect_time ===
+2026-05-05T08:35:46.974190+0300 | INFO | Response to user 25076348: Не удалось распознать время. Укажите, например: 'завтра после 18', 'в среду утром' или 'любое время'
+2026-05-05T09:07:22.565746+0300 | INFO | Initializing bot...
+2026-05-05T09:07:22.797990+0300 | INFO | Bot started
+2026-05-05T09:07:22.798991+0300 | INFO | Backup scheduler started
+2026-05-05T09:07:25.017845+0300 | DEBUG | Message from 25076348 in peer 2000000002: авп
+2026-05-05T09:07:25.017845+0300 | INFO | Processed message from 25076348: авп
+2026-05-05T09:07:25.018845+0300 | INFO | === HANDLE: user 25076348, text='авп', current state=None ===
+2026-05-05T09:07:25.018845+0300 | INFO | Response to user 25076348: Пожалуйста, подтвердите согласие на обработку персональных данных (Да / Нет):
+2026-05-05T09:07:29.353564+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-05T09:07:29.354564+0300 | INFO | Processed message from 25076348: да
+2026-05-05T09:07:29.354564+0300 | INFO | === HANDLE: user 25076348, text='да', current state=ask_consent ===
+2026-05-05T09:07:29.354564+0300 | INFO | Response to user 25076348: ✅ Спасибо за согласие! Продолжим оформление заявки.
+Пожалуйста, укажите вашу фамилию и имя (два слов
+2026-05-05T09:07:36.689785+0300 | DEBUG | Message from 25076348 in peer 2000000002: ваыва авп
+2026-05-05T09:07:36.689785+0300 | INFO | Processed message from 25076348: ваыва авп
+2026-05-05T09:07:36.689785+0300 | INFO | === HANDLE: user 25076348, text='ваыва авп', current state=collect_fi ===
+2026-05-05T09:07:36.689785+0300 | INFO | Response to user 25076348: 👪 Укажите, пожалуйста, контактные данные родителя или опекуна. Вы можете предоставить их сейчас или 
+2026-05-05T09:07:47.065944+0300 | DEBUG | Message from 25076348 in peer 2000000002: пропустить
+2026-05-05T09:07:47.065944+0300 | INFO | Processed message from 25076348: пропустить
+2026-05-05T09:07:47.065944+0300 | INFO | === HANDLE: user 25076348, text='пропустить', current state=ask_parent_data ===
+2026-05-05T09:07:47.066947+0300 | INFO | Parent data skipped for user 25076348
+2026-05-05T09:07:47.066947+0300 | INFO | Response to user 25076348: ✅ Данные родителя пропущены. Продолжаем оформление.
+Отлично! Теперь укажите ваш номер телефона в фор
+2026-05-05T09:08:13.305154+0300 | DEBUG | Message from 25076348 in peer 2000000002: +7(999)000-00-00
+2026-05-05T09:08:13.306155+0300 | INFO | Processed message from 25076348: +7(999)000-00-00
+2026-05-05T09:08:13.306155+0300 | INFO | === HANDLE: user 25076348, text='+7(999)000-00-00', current state=collect_phone ===
+2026-05-05T09:08:13.306155+0300 | INFO | Response to user 25076348: Укажите удобное время по МСК для звонка (например: 'завтра после 18', 'в среду утром', 'сегодня в 15
+2026-05-05T09:08:26.129071+0300 | DEBUG | Message from 25076348 in peer 2000000002: сегодня в 15:00
+2026-05-05T09:08:26.130574+0300 | INFO | Processed message from 25076348: сегодня в 15:00
+2026-05-05T09:08:26.130574+0300 | INFO | === HANDLE: user 25076348, text='сегодня в 15:00', current state=collect_time ===
+2026-05-05T09:08:27.594462+0300 | INFO | Response to user 25076348: Проверьте данные:
+ФИ: ваыва авп
+Телефон: +7 (999) 000-00-00
+Время звонка по МСК: 05.05.2026 в 15:00
+
+2026-05-05T09:08:31.676242+0300 | DEBUG | Message from 25076348 in peer 2000000002: [club233127658|@ikpro] ✅ Да
+2026-05-05T09:08:31.677239+0300 | INFO | Processed message from 25076348: [club233127658|@ikpro] ✅ Да
+2026-05-05T09:08:31.677239+0300 | INFO | === HANDLE: user 25076348, text='[club233127658|@ikpro] ✅ Да', current state=confirm ===
+2026-05-05T09:08:31.677239+0300 | INFO | Response to user 25076348: Пожалуйста, ответьте 'Да' или 'Нет'.
+2026-05-05T09:08:38.235869+0300 | DEBUG | Message from 25076348 in peer 2000000002: да
+2026-05-05T09:08:38.235869+0300 | INFO | Processed message from 25076348: да
+2026-05-05T09:08:38.236871+0300 | INFO | === HANDLE: user 25076348, text='да', current state=confirm ===
+2026-05-05T09:08:38.653742+0300 | INFO | Lead saved for user 25076348
+2026-05-05T09:08:38.653742+0300 | INFO | Response to user 25076348: Спасибо! Ваши данные сохранены. Менеджер свяжется с вами в указанное время. Хорошего дня! 🌟
